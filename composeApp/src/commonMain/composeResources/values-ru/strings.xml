@@ -1,0 +1,28 @@
+<resources>
+    <!-- Main screen -->
+    <string name="ms_title">Извлечение текста с изображения</string>
+    <string name="ms_additional_title">Загрузите изображение или введите его URL, чтобы моментально извлечь текст.</string>
+
+    <!-- Extracted Text Box -->
+    <string name="etb_label">Извлечённый текст</string>
+    <string name="etb_icon_content_description">Скопировать текст</string>
+    <string name="etb_copy">Копировать</string>
+
+    <!-- Image Input Selector -->
+    <string name="iis_row_upload_image_label">Загрузить изображение</string>
+    <string name="iis_row_enter_image_url_label">Введите URL изображения</string>
+    <string name="iis_button_choose_image">Выбрать изображение</string>
+    <string name="iis_textfield_label">URL изображения</string>
+    <string name="iis_textfield_placeholder">Введите URL изображения (.jpg, .png или .webp)</string>
+    <string name="iis_textfield_icon_content_description_valid">Допустимый формат</string>
+    <string name="iis_textfield_icon_content_description_invalid">Недопустимый формат</string>
+
+    <!-- Preview Image -->
+    <string name="pi_image_content_description">Предпросмотр выбранного изображения</string>
+
+    <!-- Text Extract Action Button -->
+    <string name="teab_button_text">Извлечь текст</string>
+    <string name="teab_image_failed">Не удалось загрузить изображение</string>
+    <string name="teab_something_went_wrong">Что-то пошло не так. Пожалуйста, попробуйте позже.</string>
+    <string name="teab_extracted_text_error">Не удалось извлечь текст</string>
+</resources>

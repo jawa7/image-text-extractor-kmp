@@ -1,0 +1,28 @@
+<resources>
+<!--    Main screen-->
+    <string name="ms_title">Text Extraction from Image</string>
+    <string name="ms_additional_title">Upload an image or enter its URL to instantly extract text from it.</string>
+
+<!--    Extracted Text Box-->
+    <string name="etb_label">Extracted Text</string>
+    <string name="etb_icon_content_description">Copy text</string>
+    <string name="etb_copy">Copy</string>
+
+<!--    Image Input Selector-->
+    <string name="iis_row_upload_image_label">Upload an Image</string>
+    <string name="iis_row_enter_image_url_label">Enter Image URL</string>
+    <string name="iis_button_choose_image">Choose Image</string>
+    <string name="iis_textfield_label">Image URL</string>
+    <string name="iis_textfield_placeholder">Enter an image URL (.jpg, .png, or .webp only)</string>
+    <string name="iis_textfield_icon_content_description_valid">Valid format</string>
+    <string name="iis_textfield_icon_content_description_invalid">Invalid format</string>
+
+<!--    Preview Image-->
+    <string name="pi_image_content_description">Preview of selected image</string>
+
+<!--    Text Extract Action Button-->
+    <string name="teab_button_text">Extract Text</string>
+    <string name="teab_image_failed">Unable to download the image</string>
+    <string name="teab_something_went_wrong">Something went wrong. Please try again later.</string>
+    <string name="teab_extracted_text_error">Couldn't extract text</string>
+</resources>

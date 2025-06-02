@@ -1,0 +1,28 @@
+<resources>
+    <!-- Main screen -->
+    <string name="ms_title">Extrahování textu z obrázku</string>
+    <string name="ms_additional_title">Nahrajte obrázek nebo zadejte jeho URL pro okamžité extrahování textu.</string>
+
+    <!-- Extracted Text Box -->
+    <string name="etb_label">Extrahovaný text</string>
+    <string name="etb_icon_content_description">Zkopírovat text</string>
+    <string name="etb_copy">Kopírovat</string>
+
+    <!-- Image Input Selector -->
+    <string name="iis_row_upload_image_label">Nahrát obrázek</string>
+    <string name="iis_row_enter_image_url_label">Zadat URL obrázku</string>
+    <string name="iis_button_choose_image">Vybrat obrázek</string>
+    <string name="iis_textfield_label">URL obrázku</string>
+    <string name="iis_textfield_placeholder">Zadejte URL obrázku (.jpg, .png nebo .webp)</string>
+    <string name="iis_textfield_icon_content_description_valid">Platný formát</string>
+    <string name="iis_textfield_icon_content_description_invalid">Neplatný formát</string>
+
+    <!-- Preview Image -->
+    <string name="pi_image_content_description">Náhled vybraného obrázku</string>
+
+    <!-- Text Extract Action Button -->
+    <string name="teab_button_text">Extrahovat text</string>
+    <string name="teab_image_failed">Nepodařilo se stáhnout obrázek</string>
+    <string name="teab_something_went_wrong">Došlo k chybě. Zkuste to prosím znovu později.</string>
+    <string name="teab_extracted_text_error">Nepodařilo se extrahovat text</string>
+</resources>
