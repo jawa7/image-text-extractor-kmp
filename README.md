@@ -2,6 +2,9 @@
 
 This project is a Kotlin Multiplatform application targeting Android, iOS, and Backend. It demonstrates sharing business logic and UI code across platforms, with features for extracting text from images and generating jokes using AI (not connected with UI yet).
 
+## Screenshots
+Can be seen in the [screenshots directory](https://github.com/jawa7/image-text-extractor-kmp/tree/master/screenshots)
+
 ## Features
 - Extract text from images using AI (OpenAI integration)
 - Upload images to AWS S3
