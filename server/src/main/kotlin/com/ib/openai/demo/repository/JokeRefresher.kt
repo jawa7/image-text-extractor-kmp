@@ -6,7 +6,9 @@ import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.context.annotation.Profile
+import org.springframework.context.event.EventListener
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
 
@@ -32,13 +34,13 @@ class JokeRefresher(
     }
 
     @Profile("prod")
-//    @EventListener(ApplicationReadyEvent::class)
+    @EventListener(ApplicationReadyEvent::class)
     fun onStartupProd() {
         refresh()
     }
 
     @Profile("local")
-//    @EventListener(ApplicationReadyEvent::class)
+    @EventListener(ApplicationReadyEvent::class)
     fun onStartupLocal() {
         val entities = jokeRepository.count()
         if (entities == 0L) {
